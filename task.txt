@@ -1,0 +1,39 @@
+Build a task management dashboard with advanced features like filtering, drag-drop, persistence, and performance optimization.
+ 
+Core Requirements
+1. Task Management
+Create / Edit / Delete tasks
+Each task should have:
+Title
+Description
+Priority (Low / Medium / High)
+Status (Todo / In Progress / Done)
+Due Date
+ 
+2. Kanban Board (Important)
+Show tasks in 3 columns:
+Todo
+In Progress
+Done
+Implement drag and drop between columns
+ 
+3. Filtering & Search
+Filter by:
+Priority
+Status
+Search by title (debounced input)
+ 
+4. Persistence
+Store data in:
+LocalStorage (mandatory)
+Bonus:
+Sync with mock API (like JSON Server)
+ 
+5. Optimized Rendering
+Prevent unnecessary re-renders
+ 
+6. Responsive UI
+Should work on:
+Desktop
+Tablet
+Mobile
